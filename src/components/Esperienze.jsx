@@ -9,19 +9,9 @@ import React from 'react';
 export default function Esperienze() {
     const [loading, setLoading] = useState(true);
 
-    // Funzione per gestire il caricamento
-    const load = useCallback(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 2200);
-    }, []);
-
-    useEffect(() => {
-        load(); // Avvia il caricamento all'inizio
-    }, [load]);
-
     return (
         <>
+            <div className=""></div>
             {loading && (
                 <div className="fixed inset-0 bg-black flex justify-center items-center z-50">
                     <SyncLoader color="#ffffff" />
@@ -29,9 +19,7 @@ export default function Esperienze() {
             )}
             <div className={`${loading ? 'hidden' : 'block'}`}>
                 <Navbar />
-                <div className="fixed top-0 left-0 -z-1 w-full h-auto">
-                    <Rocket load={load} />
-                </div>
+                <div className="bg-container"></div>
                 <div className="flex justify-center mt-20">
                     <div className="w-1/2 h-auto">
                         <ol className="relative w-500 border-s border-gray-200 dark:border-gray-700">
@@ -51,14 +39,6 @@ export default function Esperienze() {
     );
 }
 
-function Rocket({ load }) {
-    return (
-        <Spline 
-            scene="https://prod.spline.design/dsVqt-jUPu7v6wgr/scene.splinecode"
-            onLoad={() => load()} 
-        />
-    );
-}
 function FormattedText({ text }) {
     return (
         <span>

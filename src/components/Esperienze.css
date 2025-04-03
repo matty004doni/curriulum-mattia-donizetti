@@ -1,0 +1,11 @@
+.bg-container{
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-image: url('https://curriulum-mattia-donizetti.pages.dev/assets/rocket.gif'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
