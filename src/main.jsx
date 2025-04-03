@@ -8,7 +8,7 @@ import './main.css'
 import './index.css'
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Landing from './components/Landing'
-import Chisono from './components/ChiSono'
+import Chisono from './components/Chisono'
 
 
 const router = createBrowserRouter([
