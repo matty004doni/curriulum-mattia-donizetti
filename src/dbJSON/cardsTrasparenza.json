@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "img": "./assets/portaleTrasparenza.png",
+    "img": "https://res.cloudinary.com/do8y1i3bm/image/upload/v1743674943/Trasparency_y2ppxy.png",
     "title": "",
     "content": "Portale web sviluppato per permettere agli utenti di verificare la conformità di un sito web rispetto agli standard legali e normativi. L'interfaccia intuitiva consente un'analisi automatica e approfondita, assicurando che i siti siano conformi e sicuri, migliorando l'esperienza utente e la gestione delle normative digitali."
   },
