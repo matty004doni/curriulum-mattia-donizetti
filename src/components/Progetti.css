@@ -1,0 +1,127 @@
+.card {
+    width: 21rem;
+    background-color: #414141;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 149, 0.7),  /* Rosso */
+        0 0 20px rgba(255, 0, 149, 0.7),  /* Rosso */
+        0 0 30px rgba(111, 0, 255, 0.7),  /* Blu */
+        0 0 40px rgba(25, 0, 255, 0.7),   /* Blu scuro */
+        0 0 50px rgba(0, 110, 255, 0.7);  /* Azzurro */
+    animation: glowing 1.5s ease-in-out infinite; /* Animazione dell'effetto glow */
+}
+.card-new{
+   box-shadow: 
+        0 0 10px rgba(255, 0, 149, 0.7),  /* Rosso */
+        0 0 20px rgba(255, 0, 149, 0.7),  /* Rosso */
+        0 0 30px rgba(111, 0, 255, 0.7),  /* Blu */
+        0 0 40px rgba(25, 0, 255, 0.7),   /* Blu scuro */
+        0 0 50px rgba(0, 110, 255, 0.7);  /* Azzurro */
+    animation: glowing 1.5s ease-in-out infinite; /* Animazione dell'effetto glow */
+}
+.card-gestiamoci{
+  width: 60rem;
+    background-color: #414141;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 149, 0.7),  /* Rosso */
+        0 0 20px rgba(255, 0, 149, 0.7),  /* Rosso */
+        0 0 30px rgba(111, 0, 255, 0.7),  /* Blu */
+        0 0 40px rgba(25, 0, 255, 0.7),   /* Blu scuro */
+        0 0 50px rgba(0, 110, 255, 0.7);  /* Azzurro */
+    animation: glowing 1.5s ease-in-out infinite; /* Animazione dell'effetto glow */
+     z-index: 10;
+}
+.card-image {
+    width: 20rem;
+    height: 20rem;
+}
+
+.card-image-gestiamoci {
+    width: 59rem;
+}
+@keyframes glowing {
+  0% {
+    box-shadow:
+      0 0 10px rgba(255, 0, 149, 0.7),
+      0 0 20px rgba(255, 0, 149, 0.7),
+      0 0 30px rgba(111, 0, 255, 0.7),
+      0 0 40px rgba(25, 0, 255, 0.7),
+      0 0 50px rgba(0, 110, 255, 0.7);
+  }
+  50% {
+    box-shadow:
+      0 0 15px rgba(255, 0, 149, 0.7),
+      0 0 25px rgba(255, 0, 149, 0.7),
+      0 0 35px rgba(111, 0, 255, 0.7),
+      0 0 45px rgba(25, 0, 255, 0.7),
+      0 0 55px rgba(0, 110, 255, 0.7);
+  }
+  100% {
+    box-shadow:
+      0 0 10px rgba(255, 0, 149, 0.7),
+      0 0 20px rgba(255, 0, 149, 0.7),
+      0 0 30px rgba(111, 0, 255, 0.7),
+      0 0 40px rgba(25, 0, 255, 0.7),
+      0 0 50px rgba(0, 110, 255, 0.7);
+  }
+}
+
+@keyframes scaleEffect {
+  0% {
+    transform: scale(1); /* Dimensione normale */
+  }
+  50% {
+    transform: scale(1.1); /* Aumenta la dimensione */
+  }
+  100% {
+    transform: scale(1); /* Torna alla dimensione originale */
+  }
+}
+
+.robot{
+    position: fixed;
+    top: 10rem;
+    height: 50rem;
+    width: 100%;
+}
+#card1{
+    position: absolute;
+    top:18rem;
+    right: 5rem;
+}
+#card2{
+    position: absolute;
+    top:18rem;
+    left: 5rem;
+}
+.fadeRight{
+    opacity: 0;
+    transform: translateX(100%);
+    animation: fadeInRight 1s forwards;
+}
+.fadeLeft{
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fadeInLeft 1s forwards;
+}
+/* Keyframes per Fade-In da Destra */
+@keyframes fadeInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Keyframes per Fade-In da Sinistra */
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.mascot-ball {
+    position: absolute;
+    top: 18rem;
+    height: 40rem;
+    z-index: 1;
+    width: 182rem;
+} 

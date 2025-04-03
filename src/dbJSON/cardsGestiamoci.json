@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "img": "/images/portaleGestiamoci.png",
+    "title": "",
+    "content": "Portale innovativo per la gestione completa del magazzino, con tracciamento in tempo reale di carico, scarico e spostamenti di toner, PC e altro materiale. Ottimizza i flussi operativi e migliora l'efficienza nella gestione delle risorse"
+  },
+  {
+    "id": 1,
+    "title": "Gestione Smart del Magazzino: Efficienza e Controllo Totale",
+    "content": "\n            Il gestionale è progettato per ottimizzare ogni fase della gestione del magazzino, garantendo massima efficienza e tracciabilità.\n\n            ✅ Dashboard Intuitiva – Fornisce una panoramica immediata sui toner in esaurimento, suddivisi per sede, permettendo interventi tempestivi.\n\n            📊 Statistiche Toner – Monitora movimenti, sostituzioni e carichi con report dettagliati esportabili in Excel per un’analisi approfondita.\n\n            📦 Carico Toner Rapido – Permette l’inserimento massivo di nuove consegne, riducendo i tempi di registrazione.\n\n            🔍 Gestione Toner – Visione completa di tutti i toner nelle diverse sedi, facilitando il monitoraggio delle scorte.\n\n            🖥️ Gestione Materiale IT – Traccia PC, docking station e altro hardware, visualizzando lo stato e aggiungendo nuovi elementi con un click.\n\n            🤖 Bot Integrato: Un bot è stato integrato per assistere gli utenti nelle varie sezioni del portale, fornendo supporto immediato e offrendo manuali per l'installazione di software specifici, migliorando così l'esperienza complessiva.\n\n            Grazie a questo sistema, l’azienda ha migliorato la gestione del magazzino, ridotto gli sprechi e aumentato la produttività."
+  },
+  {
+    "id": 2,
+    "title": "Tecnologie Utilizzate per lo Sviluppo del Gestionale",
+    "content": "\n            Ogni linguaggio scelto ha contribuito a rendere il gestionale performante e user-friendly:\n\n            🌐 HTML: Struttura base del portale, per una visualizzazione chiara e accessibile delle informazioni sui toner e materiale.\n\n            📱 Bootstrap: Framework per una dashboard responsive e moderna, ottimizzata per ogni dispositivo.\n\n            ⚙️ JavaScript: Interattività avanzata e aggiornamenti in tempo reale per monitorare toner e materiali.\n\n            🔙 PHP: Logica backend per gestire le richieste e interagire con il database in modo sicuro ed efficiente.\n\n            💾 MySQL: Gestione dei dati relativi a toner e materiali, garantendo accesso rapido e sicuro.\n\n            🔄 SQL: Interrogazione e aggiornamento dei dati, per report dettagliati e operazioni rapide.\n\n            🤖 Bot Integrato: Un bot sviluppato senza l’uso di API, ma utilizzando algoritmi scritti in PHP per interpretare le richieste degli utenti e fornire risposte appropriate. Tra gli algoritmi utilizzati, ci sono tecniche di elaborazione del linguaggio naturale (NLP), come la tokenizzazione delle frasi, il matching delle parole chiave, e l'analisi delle espressioni regolari per riconoscere comandi specifici. Inoltre, il bot è in grado di gestire le variabili contestuali per rispondere in modo dinamico alle richieste e fornire manuali per l'installazione di software, migliorando l'efficienza del supporto.\n\n            "
+  },
+  {
+    "id": 3,
+    "title": "Competenze Acquisite",
+    "content": "\n           Grazie a questo progetto, ho acquisito significative competenze tecniche:\n\n            - Utilizzo avanzato di Bootstrap per creare interfacce responsive e moderne, ottimizzando l’esperienza utente su diversi dispositivi.\n\n            - Miglioramento delle competenze in JavaScript, in particolare nell’utilizzo di AJAX per rendere le richieste asincrone più veloci ed efficienti, migliorando la reattività del sistema.\n\n            - Gestione schematica del backend con PHP, sviluppando logiche di gestione dei dati sicure ed efficienti, con una struttura chiara e modulare.\n\n            - Competenze avanzate in MySQL, con focus sulla progettazione e gestione di strutture tabellari, ottimizzazione delle query e gestione dei dati per garantire prestazioni elevate.\n\n            - Creazione di un bot intelligente utilizzando algoritmi NLP (Natural Language Processing) in PHP, migliorando la capacità di interpretare e rispondere automaticamente alle richieste degli utenti, offrendo supporto pratico e dinamico.\n\n            Queste esperienze mi hanno permesso di perfezionare le mie capacità nello sviluppo di soluzioni software complete, migliorando notevolmente la gestione dei processi aziendali.\n            "
+  }
+]

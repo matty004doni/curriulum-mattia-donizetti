@@ -1,0 +1,6 @@
+.chi-sono-spline {
+    width: 100%;
+    position:absolute;
+    top:-2rem;
+    z-index: -1;
+}

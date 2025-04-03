@@ -1,0 +1,20 @@
+[
+    {
+        "id":0,
+        "data": "anno 2022",
+        "title": "Stage presso Office Line, Palazzago",
+        "description": "presso officeline, ho eseguito riparazioni di pc e stampanti, inoltre ho anche fatto assistenza di pc da remoto e in negozio."
+    },
+    {
+        "id":1,
+        "data": "anno 2023",
+        "title": "Bibloteca Montello, Merate",
+        "description": "in collaborazione con la scuola, ho creato un sito web con html, css, javascript e php; il quale si occupava della gestione (utenti, prestiti libri, cancellazione libri e aggiunta libri) della biblioteca. Tramite mysql e l’utilizzo di SQL, php ho gestito i dati salvandoli sul database, per poi utilizzarli nelle differenti pagine del sito. "       
+    },
+    {
+        "id":2,
+        "data": "da Aprile 2024",
+        "title": "Bvtech S.p.a (presso Ats della Brianza), lecco",
+        "description": "**Assistente Informatico presso BVTECH SPA, per ATS della Brianza**\n\n- **Gestione e aggiornamento software su larga scala:**\n  - Eseguito aggiornamenti su tutto il parco macchine di ATS.\n  - Gestito in remoto l’installazione di applicativi aziendali come:\n    - Software VPN (inclusa configurazione di licenze e chiavi utente).\n    - Antivirus.\n  - Garantito il corretto funzionamento e la sicurezza di oltre **600 dispositivi** distribuiti nelle diverse sedi.\n\n- **Sviluppo di un applicativo per la gestione del magazzino:**\n  - Progettato e sviluppato da zero un **applicativo di rete** per la gestione del magazzino.\n  - Ottimizzato i processi di inventario e distribuzione delle risorse tra le sedi di ATS.\n  - Migliorata l'efficienza della gestione dei materiali e ridotti gli errori di tracciamento.\n\n- **Installazione e configurazione hardware e software:**\n  - Installato e configurato **PC, stampanti e software aziendali** nelle varie sedi di ATS.\n  - Garantita la piena operatività del personale.\n  - Fornita assistenza tecnica per risolvere problemi di funzionamento.\n\n- **Gestione delle reti aziendali:**\n  - Manutenzione e gestione dei **punti rete** nelle sedi di ATS.\n  - Assicurata la connettività e il corretto funzionamento delle infrastrutture informatiche.\n\n- **Manutenzione hardware e software:**\n  - Effettuati interventi di **manutenzione su PC e stampanti** per prevenire e risolvere problemi tecnici.\n  - Migliorata la durata e l'efficienza delle apparecchiature."
+    }
+]

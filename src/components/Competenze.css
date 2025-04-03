@@ -1,0 +1,10 @@
+.brain{
+    position: fixed;
+    top: 5rem;
+    width: 100%;
+    z-index: -1;
+}
+.title-right{
+    position: absolute;
+    right: 2.8rem;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Gestiamoci",
+    "animate": "fadeRight",
+    "description": "Un gestionale completo per tracciare toner e materiale IT, dalla consegna al ritiro, con statistiche sui movimenti e gestione del magazzino.",
+    "img": "/images/gestiamoci.png"
+  },
+  {
+    "id": 2,
+    "title": "Trasparency",
+    "animate": "fadeLeft",
+    "description": "Questo progetto è un'applicazione che analizza i siti web per verificarne la conformità a standard e normative.",
+    "img": "/images/trasparency.png"
+  }
+
+]
