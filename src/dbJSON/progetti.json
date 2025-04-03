@@ -4,14 +4,14 @@
     "title": "Gestiamoci",
     "animate": "fadeRight",
     "description": "Un gestionale completo per tracciare toner e materiale IT, dalla consegna al ritiro, con statistiche sui movimenti e gestione del magazzino.",
-    "img": "https://res.cloudinary.com/do8y1i3bm/image/upload/v1743674957/Gestiamoci_xehmkg.png"
+    "img": "https://curriulum-mattia-donizetti.pages.dev/images/Gestiamoci.png"
   },
   {
     "id": 2,
     "title": "Trasparency",
     "animate": "fadeLeft",
     "description": "Questo progetto è un'applicazione che analizza i siti web per verificarne la conformità a standard e normative.",
-    "img": "https://res.cloudinary.com/do8y1i3bm/image/upload/v1743674943/Trasparency_y2ppxy.png"
+    "img": "https://curriulum-mattia-donizetti.pages.dev/images/Trasparency.png"
   }
 
 ]
