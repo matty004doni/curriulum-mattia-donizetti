@@ -13,15 +13,6 @@ import cardsDataTrasparenza from '/src/dbJSON/cardsTrasparenza.json'
 
 export default function Progetti(){
     const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        const timer = setTimeout(() => {
-        setLoading(false);
-        }, 2200);
-
-        // Pulizia del timer per evitare memory leaks
-        return () => clearTimeout(timer);
-    }, []);
-    
     return(
         <>  
             <Navbar></Navbar>
@@ -37,7 +28,7 @@ export default function Progetti(){
                 </header>
                 <main className="flex flex-col justify-center mt-10">
                     <div className="robot">
-                        <Robot></Robot>
+                        <Robot setLoading={setLoading}></Robot>
                     </div>
                     <div className="">
                         {progetti.map((progetto)=>(
@@ -79,9 +70,9 @@ function Card({title, img, description ,id, animate}){
 }
 
 //? FUNZIONE SFONDO ROBOT
-function Robot() {
+function Robot({setLoading}) {
   return (
-    <Spline scene="https://prod.spline.design/mBWYUlUIB07vQmbi/scene.splinecode" />
+    <Spline scene="https://prod.spline.design/mBWYUlUIB07vQmbi/scene.splinecode" onLoad={() => setLoading(false)}/>
   );
 }
 
